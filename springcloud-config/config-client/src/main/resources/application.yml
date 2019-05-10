@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master  #指明远程仓库的分支
+      profile: dev   #激活文件
+      uri: http://localhost:8888/  #服务端地址
+server:
+  port: 8881

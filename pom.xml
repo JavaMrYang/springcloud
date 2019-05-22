@@ -26,7 +26,6 @@
             <module>service-feign</module>
             <module>service-zuul</module>
             <module>spring-cloud-config</module>
-            <module>springcloud-config</module>
         </modules>
 
         <properties>

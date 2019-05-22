@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: localhost  #设置eureka主机地址
+    hostname: localhost  #设置eureka实例主机地址
   client:
     registerWithEureka: false
     fetchRegistry: false
